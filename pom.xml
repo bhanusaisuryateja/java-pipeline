@@ -7,7 +7,7 @@
   <groupId>com.coveros.demo</groupId>
   <artifactId>pipeline</artifactId>
   <version>1.1</version>
-  <packaging>jar</packaging>
+  <packaging>War</packaging>
 
   <name>Hello World</name>
   <description>The most basic of Java programs.</description>
