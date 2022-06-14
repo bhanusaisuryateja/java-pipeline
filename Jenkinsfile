@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-       git branch: 'pipeline', url: 'https://github.com/bhanusaisuryateja/java-task-pipe.git'
+       git branch: 'master', url: 'https://github.com/bhanusaisuryateja/java-pipeline.git'
    }
    stage('Mvn Package'){
      sh "mvn clean package"
