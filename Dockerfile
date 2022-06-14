@@ -2,7 +2,7 @@ FROM tomcat:latest
 
 LABEL maintainer="bhanu sai surya teja"
 
-COPY ./target/pipeline.war /usr/local/tomcat/webapps/
+COPY ./target/pipeline-1.1.jar /usr/local/tomcat/webapps/
 
 EXPOSE 8081
 
